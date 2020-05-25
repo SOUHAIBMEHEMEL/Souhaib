@@ -1,0 +1,6 @@
+0- icon color #E3E9ED
+1- red F94A8E
+2- blue 947FEE
+3- dark black 31344F
+4- light black 404263
+5- gradient  background-image: linear-gradient(to right, #947fee, #ba71de, #d762c7, #ec54ac, #f94a8e);
