@@ -6,8 +6,8 @@
 }
 
 body{
-    background-color: #191919;
     font-family: Montserrat, sans-serif;
+    background-color: #31344F;
 }
 
 :root {
@@ -19,7 +19,6 @@ body{
 }
 
 .container {
-    background: #191919;
     min-height: 100vh;
     font-family: Montserrat, sans-serif;
 }
@@ -134,19 +133,21 @@ section:target h1 {
     animation: 2s fadeIn forwards .5s;
 }
 
-#first {
-    background:var(--primary-color);
+#first, #second, #third, #fourth {
+    background: url("../img/bg.jpg") no-repeat center center;
+    background-size: cover;
 }
-#second {
+
+.sectionContainer{
+    margin-left: 5%;
+    height: 100%;
+    width: 100%;
+    opacity: 85%;
     background: var(--primary-color);
 }
 
-#third {
-    background: var(--primary-color);
-}
-
-#fourth {
-    background: var(--primary-color);
+.section4{
+    opacity: 65%;
 }
 
 @keyframes fadeIn {
