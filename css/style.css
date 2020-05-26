@@ -28,9 +28,8 @@ body{
     color: #E3E9ED;
 }
 .firstRow .introCard{
-    margin-top: 8%;
+    margin-top: 0;
     background-color: rgba(64,66,99,.6);
-    border-radius: 15px;
     padding: 0;
 }
 
@@ -41,9 +40,18 @@ body{
 .introCardContent{
     height: 100%;
     width: 100%;
+    position: absolute;
+    padding: 30px;
+    top: 0;
     margin: 0;
     border-radius: 15px;
     background-color: rgba(64,66,99,.4);
+}
+.cardRow{
+    width: 100%;
+}
+.cardRow h4{
+    color: #E3E9ED;
 }
 
 #myImage{
@@ -54,7 +62,15 @@ body{
     height: 50px;
     background: url("../img/Sohaib.jpg") no-repeat center center;
     background-size: cover;
+}
 
+#myImage1{
+    margin: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: url("../img/Sohaib.jpg") no-repeat center center;
+    background-size: cover;
 }
 
 #socialContact{
@@ -62,11 +78,58 @@ body{
     bottom: 6%;
 }
 
+.contactMe{
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+    left: 0;
+}
+
+.contactMe > div > div{
+    width: 46px;
+    height: 30px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.contactMe .contacticon{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .ligne{
     width: 100%;
     height: 1px;
     background-image: linear-gradient(to right, #947fee, #ba71de, #d762c7, #ec54ac, #f94a8e);
     margin-bottom: 90%;
+}
+.ligne1{
+    width: 100%;
+    height: 1px;
+    background-image: linear-gradient(to right, #947fee, #ba71de, #d762c7, #ec54ac, #f94a8e);
+}
+
+button.button {
+    border-radius: 0;
+    padding: 1rem;
+    font-size: .9rem;
+    padding: .6rem 1.8rem;
+    color: #E3E9ED;
+    border: solid 1px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #947FEE, #F94A8E);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #31344F inset;
+}
+
+button.button > b{
+    background: #E3E9ED;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+button.button:hover {
+    box-shadow: none;
 }
 
 .nav a {
@@ -101,7 +164,6 @@ body{
     margin-top: 10px;
     text-align: center; /*new*/
 }
-
 
 .nav > img {
     margin-top: 2px;
