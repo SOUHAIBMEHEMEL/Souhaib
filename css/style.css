@@ -323,9 +323,7 @@ section:target h1 {
     position: absolute;
     width: 120px;
     height: 120px;
-    border: 1px solid #ccc;
-    background: rgba(255,255,255,0.8);
-    box-shadow: inset 0 0 20px rgba(0,0,0,0.2);
+    background-color: rgba(70,70,105,.87);
     line-height: 120px;
     text-align: center;
     font-size: 100px;
@@ -369,6 +367,117 @@ section:target h1 {
     transform: rotateX(-90deg) translateZ(60px);
 }
 
+.webdev .face1 > div{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 15%;
+    background: url("../img/languages/html.png") no-repeat center center;
+    background-size: cover;
+}
+.webdev .face2 > div{
+    position: absolute;
+    width: 86%;
+    height: 88%;
+    left: 7%;
+    top: 7%;
+    background: url("../img/languages/CSS3_logo_and_wordmark.svg.png") no-repeat center center;
+    background-size: cover;
+}
+.webdev .face3 > div{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background: url("../img/languages/javascript.png") no-repeat center center;
+    background-size: cover;
+}
+.webdev .face4 > div{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background: url("../img/languages/jquery.png") no-repeat center center;
+    background-size: cover;
+}
+.webdev .face5 > div{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background: url("../img/languages/wordpress.png") no-repeat center center;
+    background-size: cover;
+}
+.webdev .face6 > div{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background: url("../img/languages/react.png") no-repeat center center;
+    background-size: cover;
+}
+
+
+
+.programming_languages .face1 > div{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background: url("../img/languages/kotlin.png") no-repeat center center;
+    background-size: cover;
+}
+.programming_languages .face2 > div{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 5%;
+    background: url("../img/languages/java.png") no-repeat center center;
+    background-size: cover;
+}
+.programming_languages .face3 > div{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background: url("../img/languages/Android.png") no-repeat center center;
+    background-size: cover;
+}
+.programming_languages .face4 > div{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background: url("../img/languages/python.png") no-repeat center center;
+    background-size: cover;
+}
+.programming_languages .face5 > div{
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 20%;
+    background: url("../img/languages/R_logo.png") no-repeat center center;
+    background-size: cover;
+}
+.programming_languages .face6 > div{
+    position: absolute;
+    width: 60%;
+    height: 70%;
+    left: 20%;
+    top: 15%;
+    background: url("../img/languages/php.png") no-repeat center center;
+    background-size: cover;
+}
 /*--------------------- */
 
 .wrapper_skills {
@@ -382,24 +491,27 @@ section:target h1 {
 
 .container_skills {
     position: absolute;
-    top: 0%;
+    top: 25%;
     width: 100%;
     height: 100%;
     transition: .5s all ease;
     transform: rotateX(60deg) scale(0.7);
     perspective: 900px;
-    box-shadow: 0px 20px 50px #555;
+    box-shadow: 0px 20px 50px #444;
     animation: entry 1s linear 1;
     background: #404263;
 }
 
 #c0 {
     position: absolute;
-    top: 0%;
+    top: 10%;
     width: 100%;
     height: 100%;
     z-index: 300;
     box-shadow: 0px 20px 100px #444;
+}
+#c0:hover{
+    top: -3%;
 }
 
 #c1 {
@@ -419,23 +531,15 @@ section:target h1 {
     transform: rotate(0deg) scale(1) translateY(10px);
     transition: .5s all ease;
     z-index: 400;
+    top: 0;
 }
 
-.skillsTitle {
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 30%;
-    background: url("../img/assets/asset11.png") no-repeat center center;
-    background-size: cover;
-}
 
 .story {
     position: absolute;
-    top: 15%;
+    top: 0;
     left: 0%;
-    height: 70%;
+    height: 100%;
     width: 100%;
     background: rgba(0,0,0,0);
     z-index: 30;
@@ -468,5 +572,23 @@ section:target h1 {
     line-height: 150%;
     text-align: center;
     letter-spacing: 1px;
+}
+
+.skills_animation{
+    position: absolute;
+    height: 50%;
+    width: 95%;
+    padding-left: 20%;
+    padding-right: 20%;
+    top: 0;
+    left: 5%;
+
+}
+
+.skills_animation > div{
+    position: absolute;
+    width: 20%;
+    height: 100%;
+
 }
 
