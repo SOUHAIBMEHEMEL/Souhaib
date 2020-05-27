@@ -47,7 +47,7 @@ body{
     top: 0;
     right: 10%;
     border-radius: 0;
-    background-color: rgba(174,176,259,.07);
+    background-color: rgba(70,70,115,.25);
 }
 .cardRow{
     width: 100%;
@@ -388,9 +388,9 @@ section:target h1 {
 .webdev .face3 > div{
     position: absolute;
     width: 80%;
-    height: 80%;
+    height: 82%;
     left: 10%;
-    top: 10%;
+    top: 6%;
     background: url("../img/languages/javascript.png") no-repeat center center;
     background-size: cover;
 }
@@ -422,6 +422,62 @@ section:target h1 {
     background-size: cover;
 }
 
+
+
+.design .face1 > div{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 15%;
+    background: url("../img/languages/adobe_xd.png") no-repeat center center;
+    background-size: cover;
+}
+.design .face2 > div{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 15%;
+    background: url("../img/languages/adobe_illustrator.png") no-repeat center center;
+    background-size: cover;
+}
+.design .face3 > div{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 15%;
+    background: url("../img/languages/adobe_ae.png") no-repeat center center;
+    background-size: cover;
+}
+.design .face4 > div{
+    position: absolute;
+    width: 76%;
+    height: 76%;
+    left: 14%;
+    top: 15%;
+    background: url("../img/languages/sothink_logo_make_logo.png") no-repeat center center;
+    background-size: cover;
+}
+.design .face5 > div{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 15%;
+    background: url("../img/languages/adobe_xd.png") no-repeat center center;
+    background-size: cover;
+}
+.design .face6 > div{
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 15%;
+    background: url("../img/languages/adobe_illustrator.png") no-repeat center center;
+    background-size: cover;
+}
 
 
 .programming_languages .face1 > div{
@@ -471,13 +527,14 @@ section:target h1 {
 }
 .programming_languages .face6 > div{
     position: absolute;
-    width: 60%;
-    height: 70%;
-    left: 20%;
-    top: 15%;
+    width: 66%;
+    height: 74%;
+    left: 17%;
+    top: 13%;
     background: url("../img/languages/php.png") no-repeat center center;
     background-size: cover;
 }
+
 /*--------------------- */
 
 .wrapper_skills {
@@ -555,12 +612,12 @@ section:target h1 {
 
 .info_skills {
     position: absolute;
-    top: 10%;
+    top: 6%;
 }
 
-.container_skills h3 {
+.container_skills h4 , .container_skills h5{
     text-align: center;
-    text-shadow: 0px 0px 10px #eee;
+    text-shadow: 0px 0px 3px #eee;
     color: #eee;
     letter-spacing: 2px;
 }
