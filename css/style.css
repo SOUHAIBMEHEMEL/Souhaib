@@ -602,20 +602,8 @@ section:target h1 {
     z-index: 30;
 }
 
-#s1 {
-    background: rgba(0,0,0,0);
-}
-
-#s2 {
-    background: rgba(0,0,0,0);
-}
-
-.info_skills {
-    position: absolute;
-    top: 7%;
-}
-
 .container_skills h4 {
+    margin-top: 8%;
     text-align: center;
     text-shadow: 0px 0px 3px #eee;
     color: #eee;
