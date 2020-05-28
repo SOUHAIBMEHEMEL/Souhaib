@@ -527,11 +527,11 @@ section:target h1 {
 }
 .programming_languages .face6 > div{
     position: absolute;
-    width: 66%;
-    height: 74%;
-    left: 17%;
-    top: 13%;
-    background: url("../img/languages/php.png") no-repeat center center;
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background: url("../img/languages/c.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -609,8 +609,9 @@ section:target h1 {
     top: 16%;
 }
 .story > div:nth-child(2){
+    width: 100%;
     left: 0;
-    padding: 5px 5px 10px 20px;
+    padding: 5px 5px 10px 30px;
 }
 .story > div:nth-child(2) > ul > li> img:first-child{
     margin-top: -5px;
@@ -622,9 +623,11 @@ section:target h1 {
     display: flex;
     justify-content: flex-end;
     right: 0;
-    padding: 5px 20px 10px 5px;
+    padding: 5px 30px 10px 5px;
 }
-
+.backend_title{
+    padding: 15px 0 0 0;
+}
 .story > div > ul{
     color: #A3A9AD;
     text-transform:capitalize;
@@ -633,6 +636,9 @@ section:target h1 {
 
 .story > div > ul> li{
     margin-top: 5px;
+}
+.title_h5, .title_h6{
+    visibility: hidden;
 }
 .story > div:last-child > ul .img{
     margin-top: -5px;
@@ -647,12 +653,20 @@ section:target h1 {
     letter-spacing: 2px;
     padding-bottom: 3%;
 }
-.container_skills h5, .container_skills h6 {
+.container_skills h5 {
     text-align: left;
     text-shadow: 0px 0px 1px #eee;
     color: #eee;
     letter-spacing: 1px;
     padding-bottom: 10px;
+}
+.container_skills h6 {
+    text-align: left;
+    text-shadow: 0px 0px 1px #eee;
+    color: #eee;
+    letter-spacing: 1px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .skills_animation{
