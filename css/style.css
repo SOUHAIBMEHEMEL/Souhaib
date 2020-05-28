@@ -370,27 +370,27 @@ section:target h1 {
 .webdev .face1 > div{
     position: absolute;
     width: 70%;
-    height: 70%;
+    height: 75%;
     left: 15%;
-    top: 15%;
+    top: 12%;
     background: url("../img/languages/html.png") no-repeat center center;
     background-size: cover;
 }
 .webdev .face2 > div{
     position: absolute;
-    width: 86%;
-    height: 88%;
-    left: 7%;
-    top: 7%;
+    width: 70%;
+    height: 75%;
+    left: 15%;
+    top: 12%;
     background: url("../img/languages/CSS3_logo_and_wordmark.svg.png") no-repeat center center;
     background-size: cover;
 }
 .webdev .face3 > div{
     position: absolute;
-    width: 80%;
-    height: 82%;
-    left: 10%;
-    top: 6%;
+    width: 70%;
+    height: 75%;
+    left: 15%;
+    top: 12%;
     background: url("../img/languages/javascript.png") no-repeat center center;
     background-size: cover;
 }
@@ -604,29 +604,55 @@ section:target h1 {
 
 .story > div{
     position: absolute;
-    width: 100%;
+    width: 50%;
     height: 84%;
     top: 16%;
+}
+.story > div:nth-child(2){
     left: 0;
-    background-color: #88BFB5
+    padding: 5px 5px 10px 20px;
+}
+.story > div:nth-child(2) > ul > li> img:first-child{
+    margin-top: -5px;
+}
+.story > div:nth-child(2) > ul >li{
+    margin-left: 0px;
+}
+.story > div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    right: 0;
+    padding: 5px 20px 10px 5px;
+}
+
+.story > div > ul{
+    color: #A3A9AD;
+    text-transform:capitalize;
+    list-style-type: none
+}
+
+.story > div > ul> li{
+    margin-top: 5px;
+}
+.story > div:last-child > ul .img{
+    margin-top: -5px;
+    margin-left: 3px;
 }
 
 .container_skills h4 {
     margin-top: 8%;
     text-align: center;
-    text-shadow: 0px 0px 3px #eee;
+    text-shadow: 0px 0px 1px #eee;
     color: #eee;
     letter-spacing: 2px;
     padding-bottom: 3%;
 }
-
-.container_skills p {
-    font-size: 14px;
-    color: #fff;
-    padding: 0px 20px 20px 20px;
-    line-height: 150%;
-    text-align: center;
+.container_skills h5, .container_skills h6 {
+    text-align: left;
+    text-shadow: 0px 0px 1px #eee;
+    color: #eee;
     letter-spacing: 1px;
+    padding-bottom: 10px;
 }
 
 .skills_animation{
