@@ -602,6 +602,15 @@ section:target h1 {
     z-index: 30;
 }
 
+.story > div{
+    position: absolute;
+    width: 100%;
+    height: 84%;
+    top: 16%;
+    left: 0;
+    background-color: #88BFB5
+}
+
 .container_skills h4 {
     margin-top: 8%;
     text-align: center;
