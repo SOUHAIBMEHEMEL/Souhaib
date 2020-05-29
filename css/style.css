@@ -620,6 +620,7 @@ section:target h1 {
     margin-left: 0px;
 }
 .story > div:last-child{
+    width: 80%;
     display: flex;
     justify-content: flex-end;
     right: 0;
