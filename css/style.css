@@ -80,6 +80,20 @@ body{
     bottom: 6%;
 }
 
+#socialContact >li {
+    cursor: pointer;
+}
+#socialContact > li > img:hover{
+    height: 30px;
+    width: 30px;
+}
+
+.contactMe img:hover {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+    margin-top: -8px;
+}
 .contactMe{
     position: absolute;
     bottom: 2%;
