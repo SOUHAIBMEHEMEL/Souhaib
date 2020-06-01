@@ -702,3 +702,84 @@ section:target h1 {
 
 }
 
+
+
+
+
+.resume{
+    width: 97%;
+    margin-left: 3%;
+    padding-top: 3%;
+    padding-right: 3%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.leftSide{
+    margin-bottom: 20px;
+    padding: 20px 0 20px 0 ;
+    background-color: #404263;
+}
+.rightSide{
+    padding-left: 20px;
+}
+.rightSide > div {
+    padding: 0;
+}
+.rightSide > div > div{
+    margin-bottom: 20px;
+    background-color: rgba(70,70,115,.3);
+    padding: 3%;
+}
+
+#myImage2{
+    margin: auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background: url("../img/Sohaib.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.resume  h1{
+    color: #fff;
+}
+.resume h3,.resume h4{
+    color: #fff;
+    text-transform:capitalize;
+    padding-bottom: 5px;
+}
+.resume h5{
+    text-transform:capitalize;
+    color: #fff;
+    padding-top: 15px;
+}
+.resume h6{
+    color: #fff;
+}
+.resume p{
+    color: #C3C9CD;
+}
+.phone_personalInfo{
+    display: none;
+}
+.secondPart .leftSide{
+    background-color: #404263;
+}
+
+.ligne2{
+    width: 85%;
+    margin-top: 0;
+    margin-bottom: 15px;
+    height: 1px;
+    background-image: linear-gradient(to right, #947fee, #ba71de, #d762c7, #ec54ac, #f94a8e);
+}
+.locationAndDate{
+    float:right;
+    margin-left: 5px;
+}
+
+
+
+
