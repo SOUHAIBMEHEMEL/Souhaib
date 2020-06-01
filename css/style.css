@@ -718,8 +718,8 @@ section:target h1 {
 
 .leftSide{
     margin-bottom: 20px;
-    padding: 20px 0 20px 0 ;
-    background-color: #404263;
+    padding: 0 0 0 0 ;
+
 }
 .rightSide{
     padding-left: 20px;
@@ -734,7 +734,9 @@ section:target h1 {
 }
 
 #myImage2{
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -760,7 +762,7 @@ section:target h1 {
     margin-left: 5px;
 }
 .resume p{
-    color: #C3C9CD;
+    color: #E3E9ED;
 }
 .resume a{
     font-size: 14px;
@@ -770,9 +772,6 @@ section:target h1 {
 }
 .phone_personalInfo{
     display: none;
-}
-.secondPart .leftSide{
-    background-color: #404263;
 }
 
 .ligne2{
@@ -786,7 +785,43 @@ section:target h1 {
     float:right;
     margin-left: 5px;
 }
+.leftSide > div{
+    padding: 20px;
+    background: #404263;
+    margin-bottom: 20px;
+}
+.leftSide>div>ul{
+    list-style-type: none;
+}
+.leftSide>div>ul img{
+    margin-top: -5px;
+}
 
+.leftSide>div>ul>li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.resume b{
+    margin-left: 10px;
+    color: #E3E9ED;
+    font-weight: initial;
+}
 
-
-
+.ligne3{
+    width: 85%;
+    margin-top: -2px;
+    margin-bottom: 25px;
+    height: 1px;
+    background-image: linear-gradient(to right, #947fee, #ba71de, #d762c7, #ec54ac, #f94a8e);
+}
+#competencies b, #languages b{
+    margin-left: 0;
+}
+#competencies li, #languages li{
+    width: 100%;
+}
+.competencies_star{
+    float: right;
+    margin-left: 3px;
+}
