@@ -753,12 +753,19 @@ section:target h1 {
 .resume h5{
     text-transform:capitalize;
     color: #fff;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 .resume h6{
-    color: #fff;
+    color: #E3E9ED;
+    margin-left: 5px;
 }
 .resume p{
+    color: #C3C9CD;
+}
+.resume a{
+    font-size: 14px;
+    margin-left: 5px;
+    padding-top: 25px;
     color: #C3C9CD;
 }
 .phone_personalInfo{
