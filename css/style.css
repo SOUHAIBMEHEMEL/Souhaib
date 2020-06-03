@@ -842,6 +842,7 @@ section:target h1 {
     }
     .phone_navbar{
         display: block;
+        border-bottom: 1px #31344F solid;
     }
     .sectionContainer{
         margin-left: 0;
@@ -871,10 +872,7 @@ section:target h1 {
     .secondPart .leftSide{
         margin-top: 0;
     }
-    .resume{
-        width: 100%;
-        margin-left: 0;
-        padding-right: 0;
+    .firstRow{
+        padding-right: 4%;
     }
-
 }
