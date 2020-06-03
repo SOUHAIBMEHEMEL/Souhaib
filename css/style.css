@@ -856,6 +856,9 @@ section:target h1 {
     }
     .introduction{
         top: 30px;
-        margin: 40px 20px 30px 20px;
+        margin: 60px 20px 40px 30px;
+    }
+    .phone_navbar_container{
+        background-color: #404263;
     }
 }
