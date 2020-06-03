@@ -825,3 +825,37 @@ section:target h1 {
     float: right;
     margin-left: 3px;
 }
+
+
+
+
+.phone_navbar{
+    position: fixed; top: 0;left: 0; width: 100%; z-index: 100;
+    display: none;
+}
+
+/*  small devices  */
+@media only screen and (max-width: 768px) {
+
+    .nav{
+        display: none;
+    }
+    .phone_navbar{
+        display: block;
+    }
+    .sectionContainer{
+        margin-left: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .introCardContent{
+        right: 0;
+    }
+    .introCard{
+        margin: 20px;
+    }
+    .introduction{
+        top: 30px;
+        margin: 40px 20px 30px 20px;
+    }
+}
