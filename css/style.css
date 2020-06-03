@@ -856,9 +856,25 @@ section:target h1 {
     }
     .introduction{
         top: 30px;
-        margin: 60px 20px 40px 30px;
+        margin: 60px 20px 50px 20px;
     }
     .phone_navbar_container{
         background-color: #404263;
     }
+    .rightSide{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .resume .leftSide{
+        margin-top: 60px;
+    }
+    .secondPart .leftSide{
+        margin-top: 0;
+    }
+    .resume{
+        width: 100%;
+        margin-left: 0;
+        padding-right: 0;
+    }
+
 }
