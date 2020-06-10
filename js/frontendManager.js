@@ -6,6 +6,6 @@ for (let i =0;i<menuItem.length; i++){
         }
         menuItem[i].style.background='#31344F';
        // menuItem[i].style.opacity='.7';
-        console.log('yesssss');
     }
 }
+
