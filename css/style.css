@@ -260,6 +260,12 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
 @keyframes fadeIn {
     100% { opacity:1 }
 }
+.myImageContainer{
+    background-color: rgba(70,70,115,.3);
+}
+#shortIntro{
+    background-color: #404263;
+}
 
 
 
@@ -901,5 +907,53 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     }
     .resume h6{
         margin-left: 0;
+    }
+    .resume div{
+        border-radius: 15px;
+    }
+    .resume{
+        padding-left: 10px;
+        padding-right: 25px;
+    }
+    .myImageContainer{
+        background-color: #404263;
+    }
+    #shortIntro{
+        background-color: #404263;
+    }
+    .shortIntroParent{
+        margin-top: -60px;
+    }
+    .myImageContainerParent{
+        margin-top: 10px;
+    }
+    #myImage2{
+        margin: 30px auto 50px auto;
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+        background: url("../img/Sohaib.jpg") no-repeat center center;
+        background-size: cover;
+    }
+    #shortIntro > h1{
+        font-size: 30px;
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    #shortIntro > h3{
+        font-size: 22px;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #shortIntro > p{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .rightSide > div > div{
+        margin-bottom: 20px;
+        background-color: #404263;
+        padding: 6%;
     }
 }
