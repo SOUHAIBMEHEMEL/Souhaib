@@ -151,6 +151,10 @@ button.button:hover {
     box-shadow: none;
 }
 
+.li:first-child{
+    background: #31344F;
+}
+
 .nav a {
     color: #fff;
     text-decoration: none;
