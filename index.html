@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="refresh" content="0;url=#first" />
     <title>Souhaib Mehemel</title>
     <link rel = "icon" type = "image/png" href = "/img/icons/www.png">
     <!-- For apple devices -->
     <link rel = "apple-touch-icon" type = "image/png" href = "/img/icons/www.png"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script>this.setHomePage('#first');</script>
+    <script type="text/javascript">
+        //location.href=location.href+'/#first';
+        var currentURL = window.location.pathname+'#first';
+        //Redirect to the current URL.
+        window.location.href = currentURL;
+    </script>
 </head>
 <body>
 <div class="phone_navbar">
