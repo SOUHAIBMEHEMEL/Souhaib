@@ -785,6 +785,9 @@ section:target h1 {
     float:right;
     margin-left: 5px;
 }
+.locationAndDate1{
+    display: none;
+}
 .leftSide > div{
     padding: 20px;
     background: #404263;
@@ -874,5 +877,26 @@ section:target h1 {
     }
     .firstRow{
         padding-right: 4%;
+    }
+}
+
+
+
+
+/*  phone devices  */
+@media only screen and (max-width: 768px) {
+
+    .locationAndDate{
+        display: none;
+    }
+    .locationAndDate1{
+        display: inline;
+        margin-right: 0;
+    }
+    .locationAndDate1_img{
+        margin-top: -5px;
+    }
+    .resume h6{
+        margin-left: 0;
     }
 }
