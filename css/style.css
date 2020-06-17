@@ -220,7 +220,6 @@ section h1 {
     color: #fff;
     font-size: 50px;
     text-transform: uppercase;
-    opacity: 0;
 }
 
 /* Styles applied on trigger */
@@ -233,9 +232,9 @@ section:target {
     z-index: 10;
 }
 
-section:target h1 {
+section:target h1 ,section:target h2,section:target h3,section:target h4,section:target h5,section:target h6,section:target p,section:target a,section:target b,section:target img {
     opacity: 0;
-    animation: 2s fadeIn forwards .5s;
+    animation: 2s fadeIn forwards .7s;
 }
 
 #first, #second, #third, #fourth {
