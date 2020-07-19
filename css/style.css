@@ -912,8 +912,8 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
         border-radius: 15px;
     }
     .resume{
-        padding-left: 10px;
-        padding-right: 25px;
+        padding-left: 0;
+        padding-right: 15px;
     }
     .myImageContainer{
         background-color: #404263;
