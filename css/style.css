@@ -170,6 +170,7 @@ button.button:hover {
     flex-direction: column;
     height: 100%;
     width: 5%;
+    border-right: 1px solid #31344F;
     background: var(--secondary-color);
 }
 
@@ -254,7 +255,7 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
 }
 
 .section4{
-    background: rgba(49,52,79,.95);
+    background: rgba(49,52,79,1);
 }
 
 @keyframes fadeIn {
@@ -779,9 +780,6 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     padding-top: 25px;
     color: #C3C9CD;
 }
-.phone_personalInfo{
-    display: none;
-}
 
 .ligne2{
     width: 85%;
@@ -838,13 +836,176 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     margin-left: 3px;
 }
 
-
-
-
 .phone_navbar{
     position: fixed; top: 0;left: 0; width: 100%; z-index: 100;
     display: none;
 }
+
+/*  section four  */
+#contactmeContainer0{
+    height: 50%;
+    width: 60%;
+    top: -15%;
+    left: 10%;
+    position: absolute;
+}
+#contactmeContainer1{
+    height: 50%;
+    width: 60%;
+    top: 35%;
+    left: -5%;
+    position: absolute;
+}
+#contactmeContainer2{
+    height: 50%;
+    width: 60%;
+    top: 45%;
+    left: 20%;
+    position: absolute;
+}
+#contactmeContainer3{
+    height: 50%;
+    width: 60%;
+    top: 55%;
+    left: 45%;
+    position: absolute;
+}
+#contactmeContainer4{
+    height: 50%;
+    width: 60%;
+    top: 65%;
+    left: 70%;
+    position: absolute;
+}
+.contactmeContainer >ul{
+    display: flex;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotate(-25deg) skew(25deg);
+}
+.contactmeContainer >ul>li{
+    position: relative;
+    list-style: none;
+    width: 100px;
+    height: 100px;
+    margin: 0 50px;
+}
+.contactmeContainer >ul>li:before{
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 100px;
+    height: 10px;
+    background: #2a2a40;
+    transform-origin: top;
+    transform: skewX(-41deg);
+}
+.contactmeContainer >ul>li:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -9px;
+    width: 9px;
+    height: 100px;
+    background: #2a2a40;
+    transform-origin: right;
+    transform: skewY(-49deg);
+}
+.contactmeContainer >ul>li span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background: #404263;
+    color: rgba(255,255,255,0.6);
+    font-size: 40px !important;
+}
+.contactmeContainer >ul>li:hover span{
+    z-index: 10000;
+    transition: 0.5s;
+    color: white;
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.05);
+}
+.contactmeContainer >ul>li:hover span:nth-child(5){
+    transform: translate(80px, -80px);
+    opacity: 1;
+}
+.contactmeContainer >ul>li:hover span:nth-child(4){
+    transform: translate(60px, -60px);
+    opacity: 0.8;
+}
+.contactmeContainer >ul>li:hover span:nth-child(3){
+    transform: translate(40px, -40px);
+    opacity: 0.6;
+}
+.contactmeContainer >ul>li:hover span:nth-child(2){
+    transform: translate(20px, -20px);
+    opacity: 0.4;
+}
+.contactmeContainer >ul>li:hover span:nth-child(1){
+    transform: translate(0px, 0px);
+    opacity: 0.2;
+}
+
+#contactmeContainer0 >ul>li:nth-child(1):hover span{
+    background: #55acee;
+}
+
+#contactmeContainer1 >ul>li:nth-child(1):hover span{
+    background: #e4405f;
+}
+#contactmeContainer1 >ul>li:nth-child(2):hover span{
+    background: #25D366;
+}
+#contactmeContainer1 >ul>li:nth-child(3):hover span{
+    background: #e4405f;
+}
+#contactmeContainer1 >ul>li:nth-child(4):hover span{
+    background: #3b5999;
+}
+
+#contactmeContainer2 >ul>li:nth-child(1):hover span{
+    background: #e4405f;
+}
+#contactmeContainer2 >ul>li:nth-child(2):hover span{
+    background: #55acee;
+}
+#contactmeContainer2 >ul>li:nth-child(3):hover span{
+    background: #0077b5;
+}
+#contactmeContainer2 >ul>li:nth-child(4):hover span{
+    background: #3b5999;
+}
+
+#contactmeContainer3 >ul>li:nth-child(1):hover span{
+    background: #3b5999;
+}
+#contactmeContainer3 >ul>li:nth-child(2):hover span{
+    background: #55acee;
+}
+#contactmeContainer3 >ul>li:nth-child(3):hover span{
+    background: #e4405f;
+}
+#contactmeContainer3 >ul>li:nth-child(4):hover span{
+    background: #0077b5;
+}
+
+#contactmeContainer4 >ul>li:nth-child(1):hover span{
+    background: #e4405f;
+}
+
+#mailBtn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 40px;
+}
+
 
 /*  small devices  */
 @media only screen and (max-width: 992px) {
@@ -854,7 +1015,7 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     }
     .phone_navbar{
         display: block;
-        border-bottom: 1px #31344F solid;
+        box-shadow: 0px -1px 20px 0px rgba(30,30,60,.75);
     }
     .sectionContainer{
         margin-left: 0;
@@ -886,6 +1047,9 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     }
     .firstRow{
         padding-right: 4%;
+    }
+    #contactmeContainer0,#contactmeContainer1,#contactmeContainer2,#contactmeContainer3,#contactmeContainer4{
+        display: none;
     }
 }
 
