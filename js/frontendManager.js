@@ -11,8 +11,8 @@ for (let i =0;i<menuItem.length; i++){
 
 var mailmeBtn= document.getElementById('mailBtn');
 var mailFormContainer= document.getElementById('mailFormContainer');
-
+/*
 mailmeBtn.onclick=function () {
     mailFormContainer.style.display='block';
 };
-
+*/
