@@ -1040,6 +1040,14 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
 #mailForm{
     color: white;
 }
+#quitForm{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
 
 
 /*  small devices  */

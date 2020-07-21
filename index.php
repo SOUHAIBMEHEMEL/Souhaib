@@ -1,3 +1,39 @@
+<?php
+if(isset($_POST['name'])&&isset($_POST['email'])&&isset($_POST['subject'])&&isset($_POST['message'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+    $to = 'fs_mehemel@esi.dz';
+    $body ='
+        <html>
+            <body>
+                <h3>test</h3>
+                <p>Name: <br>'.$name.'</p>
+                <p>Email: <br>'.$email.'</p>
+                <p>Subject: <br>'.$subject.'</p>
+                <p>Message: <br>'.$message.'</p>
+            </body>
+        </html>
+    ';
+
+    //headers
+    $headers = "From: ".$name." <".$email.">\r\n";
+    $headers .= "Reply-To: ".$email."\r\n";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-type: text/html; Charset-utf-8";
+
+    $send = mail($to,$subject,$body,$headers);
+    if ($send){
+        echo '<br>';
+        echo 'thanks for contacting me';
+    }
+    else{
+        echo 'error';
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -983,26 +1019,27 @@
 </div>
 
 <div id="mailFormContainer">
+    <img id="quitForm" src="img/icons/close.png"/>
     <div class="row">
         <div class="col-md-12 col-lg-4 offset-lg-4">
             <form id="mailForm">
                 <div class="form-row">
                     <div class="form-group col-md-6">
-                        <label for="name">Full Name</label>
-                        <input type="text" class="form-control" id="name">
+                        <label>Full Name</label>
+                        <input type="text" class="form-control" name="name">
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="inputEmail4">Your Email</label>
-                        <input type="email" class="form-control" id="inputEmail4">
+                        <label>Your Email</label>
+                        <input type="email" class="form-control" name="email">
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="inputAddress">Subject</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="">
+                    <label>Subject</label>
+                    <input type="text" class="form-control" name="subject" placeholder="">
                 </div>
                 <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Your Message Here</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <label>Your Message Here</label>
+                    <textarea class="form-control" name="message" rows="3"></textarea>
                 </div>
                 <button type="submit" class="button">Send</button>
             </form>
