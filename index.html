@@ -831,7 +831,7 @@
     <section id= 'fourth'>
         <div class="sectionContainer section4">
             <button id="mailBtn"><b style="margin-left: 25px">MAIL ME</b></button>
-            <div id="mailIcon"><img src="img/icons/mail.png" height="22" width="24"></div>
+            <div id="mailIcon"><img src="img/icons/mail.png" height="24" width="24"></div>
             <div id="contactmeContainer0" class="contactmeContainer">
                 <ul>
                     <li>
@@ -978,15 +978,21 @@
                     </li>
                 </ul>
             </div>
+            <div id="mailBtnPhone"><img src="img/icons/mail.png" height="30" width="30"></div>
         </div>
     </section>
 </div>
 
 <div id="mailFormContainer">
-    <img id="quitForm" src="img/icons/close.png"/>
     <div class="row">
         <div class="col-md-12 col-lg-4 offset-lg-4">
-            <form id="mailForm">
+            <div id="mailDiv">
+                <h3>You can contact me on this email:</h3>
+                <br>
+                <p>fs_mehemel@esi.dz</p>
+                <button id="quitForm" class="button">Close</button>
+            </div>
+            <form id="mailForm" style="display: none">
                 <div class="form-row">
                     <div class="form-group col-md-6">
                         <label>Full Name</label>

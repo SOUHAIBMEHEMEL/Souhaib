@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a79f202f-1122-4641-aaa2-a5c6e1f39400" name="Default" comment="" />
+    <list default="true" id="a79f202f-1122-4641-aaa2-a5c6e1f39400" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/frontendManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/frontendManager.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,20 +15,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/index.php">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-141">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="213">
+              <caret line="833" column="71" selection-start-line="833" selection-start-column="71" selection-end-line="833" selection-end-column="71" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.php">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="1040" column="52" lean-forward="true" selection-start-line="1040" selection-start-column="52" selection-end-line="1040" selection-end-column="52" />
+            <state relative-caret-position="289">
+              <caret line="1025" column="17" selection-start-line="1025" selection-start-column="17" selection-end-line="1025" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frontendManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/frontendManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -42,13 +58,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sm-</find>
-      <find>adobe</find>
-      <find>locationAndDate</find>
-      <find>from</find>
-      <find>fs</find>
-      <find>resume</find>
-      <find>pin</find>
       <find>pin.png</find>
       <find>opacity:</find>
       <find>h1</find>
@@ -69,9 +78,16 @@
       <find>fourth</find>
       <find>section</find>
       <find>face</find>
-      <find>section4</find>
       <find>button</find>
       <find>contact me</find>
+      <find>mailFormContainer</find>
+      <find>section4</find>
+      <find>#quitForm</find>
+      <find>mailDiv</find>
+      <find>mailD</find>
+      <find>mailIcon</find>
+      <find>box-sh</find>
+      <find>mailBtn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -86,12 +102,12 @@
         <option value="$PROJECT_DIR$/css/styletest.css" />
         <option value="$PROJECT_DIR$/test/test2.html" />
         <option value="$PROJECT_DIR$/../Souhaib_Mehemel/test2.html" />
-        <option value="$PROJECT_DIR$/js/frontendManager.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/test/test.html" />
         <option value="$PROJECT_DIR$/test/index.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/frontendManager.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -192,18 +208,18 @@
       <workItem from="1591824594099" duration="3516000" />
       <workItem from="1592346499307" duration="14672000" />
       <workItem from="1594295417420" duration="134000" />
-      <workItem from="1595189626931" duration="35086000" />
+      <workItem from="1595189626931" duration="39555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251140000" />
+    <option name="totallyTimeSpent" value="255609000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -212,7 +228,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31188118" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31188118" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,42 +555,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="1045" column="12" selection-start-line="1045" selection-start-column="12" selection-end-line="1045" selection-end-column="12" />
+        <state relative-caret-position="-17053" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/frontendManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="301">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16858">
-          <caret line="2" column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="213">
+          <caret line="833" column="71" selection-start-line="833" selection-start-column="71" selection-end-line="833" selection-end-column="71" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#b#0;n#button#0;n#div#0;n#section#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/index.php">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-141">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="1040" column="52" lean-forward="true" selection-start-line="1040" selection-start-column="52" selection-end-line="1040" selection-end-column="52" />
+        <state relative-caret-position="289">
+          <caret line="1025" column="17" selection-start-line="1025" selection-start-column="17" selection-end-line="1025" selection-end-column="17" />
         </state>
       </provider>
     </entry>

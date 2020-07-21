@@ -1023,7 +1023,7 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
 }
 #mailIcon>img{
     margin-left: 8px;
-    margin-top: 9px;
+    margin-top: 8px;
 }
 
 #mailFormContainer{
@@ -1036,19 +1036,38 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     background-color: rgba(35,35,59,.75);
     display: none;
 }
+#mailDiv{
+    margin: 150px 10px 10px 10px;
+    padding: 20px 20px 70px 20px;
+    background-color: #404263;
+    box-shadow: 0px 0px 20px 0px rgba(30,30,50,.95);
+    color: white;
+}
 
 #mailForm{
     color: white;
 }
 #quitForm{
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    width: 30px;
-    height: 30px;
-    color: white;
+    float: right;
+    margin-top: 10px;
 }
 
+#mailBtnPhone{
+    position: absolute;
+    cursor: pointer;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #947FEE, #F94A8E);
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px 0px rgba(30,30,50,.9);
+    display: none;
+}
+#mailBtnPhone>img{
+    margin-top: 15px;
+    margin-left: 15px;
+}
 
 /*  small devices  */
 @media only screen and (max-width: 992px) {
@@ -1093,6 +1112,15 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     }
     #contactmeContainer0,#contactmeContainer1,#contactmeContainer2,#contactmeContainer3,#contactmeContainer4,#mailBtn{
         display: none;
+    }
+    #quitForm{
+        border-radius: 20px;
+    }
+    .section4{
+        background: rgba(49,52,79,.75);
+    }
+    #mailDiv{
+        border-radius: 20px;
     }
 }
 
@@ -1162,5 +1190,8 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
         margin-bottom: 20px;
         background-color: #404263;
         padding: 6%;
+    }
+    #mailBtnPhone{
+        display: block;
     }
 }

@@ -10,9 +10,17 @@ for (let i =0;i<menuItem.length; i++){
 }
 
 var mailmeBtn= document.getElementById('mailBtn');
+var mailBtnPhone= document.getElementById('mailBtnPhone');
+var quitForm= document.getElementById('quitForm');
 var mailFormContainer= document.getElementById('mailFormContainer');
-/*
+
 mailmeBtn.onclick=function () {
     mailFormContainer.style.display='block';
 };
-*/
+mailBtnPhone.onclick=function () {
+    mailFormContainer.style.display='block';
+};
+quitForm.onclick=function () {
+    mailFormContainer.style.display='none';
+};
+
