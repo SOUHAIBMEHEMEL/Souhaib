@@ -113,6 +113,20 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.versionRightLigne{
+    position: absolute;
+    bottom: 30px;
+    left: 70px;
+}
+.versionRight{
+    position: absolute;
+    left: 80px;
+    bottom: 20px;
+    color: #E3E9ED;
+    font-weight: lighter;
+    font-style: italic;
+}
+
 
 .ligne{
     width: 100%;
@@ -711,6 +725,9 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     height: 100%;
 
 }
+.socialMediaPhone{
+    display: none;
+}
 
 
 
@@ -893,10 +910,10 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
 .contactmeContainer >ul>li:before{
     content: "";
     position: absolute;
-    bottom: -10px;
+    bottom: -20px;
     left: 0;
     width: 100px;
-    height: 10px;
+    height: 20px;
     background: #2a2a40;
     transform-origin: top;
     transform: skewX(-41deg);
@@ -905,8 +922,8 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     content: "";
     position: absolute;
     top: 0;
-    left: -9px;
-    width: 9px;
+    left: -18px;
+    width: 18px;
     height: 100px;
     background: #2a2a40;
     transform-origin: right;
@@ -1121,6 +1138,34 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     }
     #mailDiv{
         border-radius: 20px;
+    }
+    .versionRightLigne{
+        bottom: 30px;
+        left: 0;
+    }
+    .versionRight{
+        left: 10px;
+        bottom: 20px;
+    }
+    .socialMediaPhone{
+        margin: 150px 30px 30px 30px;
+        display: flex;
+    }
+    .socialMediaPhone div{
+        display: flex;
+    }
+    .socialMediaPhone > div > div{
+        padding: 40px;
+    }
+    .socialMediaPhone img{
+        width: 50px;
+        height: 50px;
+        margin: auto;
+        cursor: pointer;
+    }
+    .socialMediaPhone img:hover{
+        width: 90px;
+        height: 90px;
     }
 }
 
