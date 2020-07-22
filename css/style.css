@@ -538,11 +538,11 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
 }
 .programming_languages .face3 > div{
     position: absolute;
-    width: 80%;
-    height: 80%;
-    left: 10%;
-    top: 10%;
-    background: url("../img/languages/Android.png") no-repeat center center;
+    width: 70%;
+    height: 70%;
+    left: 15%;
+    top: 15%;
+    background: url("../img/languages/flutter.png") no-repeat center center;
     background-size: cover;
 }
 .programming_languages .face4 > div{
