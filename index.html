@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"/>
     <script type="text/javascript">
         //location.href=location.href+'/#first';
-        var currentURL = window.location.pathname+'#first';
+        var currentURL = window.location.pathname+'#home';
         //Redirect to the current URL.
         window.location.href = currentURL;
     </script>
@@ -20,17 +20,17 @@
 <body>
 <div class="phone_navbar">
     <nav class="navbar navbar-expand-md navbar-dark phone_navbar_container">
-        <a href="#" class="navbar-brand">Souhaib</a>
+        <a href="#home" class="navbar-brand">Souhaib</a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" style="border-color: #C3C9CD" >
             <span class="navbar-toggler-icon" ></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-                <a href="#first" class="nav-item nav-link">Home</a>
-                <a href="#third" class="nav-item nav-link">Resume</a>
+                <a href="#home" class="nav-item nav-link">Home</a>
+                <a href="#resume" class="nav-item nav-link">Resume</a>
                 <a href="#blog" class="nav-item nav-link">Blog</a>
-                <a href="#fourth" class="nav-item nav-link">Contact</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
         </div>
     </nav>
@@ -40,11 +40,11 @@
     <div id="myImage"></div>
     <div class="ligne"></div>
     <ul style="width: 100%">
-        <li class="li"><a href="#first"><img src="img/icons/home-run.png" height="25" width="25"><b>HOME</b></a></li>
-        <li class="li"><a href="#second"><img src="img/icons/user.png" height="25" width="25"><b>SKILLS</b></a></li>
-        <li class="li"><a href="#third"><img src="img/icons/resume.png" height="25" width="25"><b>RESUME</b></a></li>
+        <li class="li"><a href="#home"><img src="img/icons/home-run.png" height="25" width="25"><b>HOME</b></a></li>
+        <li class="li"><a href="#skills"><img src="img/icons/user.png" height="25" width="25"><b>SKILLS</b></a></li>
+        <li class="li"><a href="#resume"><img src="img/icons/resume.png" height="25" width="25"><b>RESUME</b></a></li>
         <li class="li"><a href="#blog"><img src="img/icons/blog.png" height="25" width="25"><b>BLOG</b></a></li>
-        <li class="li"><a href="#fourth"><img src="img/icons/mail.png" height="25" width="25"><b>CONTACT</b></a></li>
+        <li class="li"><a href="#contact"><img src="img/icons/mail.png" height="25" width="25"><b>CONTACT</b></a></li>
     </ul>
     <ul id="socialContact">
         <li><img onclick="location.href='https://github.com/SOUHAIBMEHEMEL'" src="img/icons/github-image.png" height="17" width="17"></li>
@@ -55,7 +55,7 @@
 </div>
 
 <div class= 'mycontainer'>
-    <section id= 'first'>
+    <section id= 'home'>
         <div class="sectionContainer">
             <div class="container firstRow">
                 <div class="row">
@@ -65,7 +65,7 @@
                         <h5 style="text-transform:capitalize;">full stack developer / UI-UX designer / freelancer.</h5>
                         <h5 style="text-transform:capitalize;">Microsoft student learn ambassador.</h5>
                         <br>
-                        <button class="button" onclick="location.href= '#fourth'"><b>CONTACT ME</b></button>
+                        <button class="button" onclick="location.href= '#contact'"><b>CONTACT ME</b></button>
                     </div>
                     <div class="col-md-12 col-lg-4 introCard">
                         <div class="introCardContent">
@@ -101,7 +101,7 @@
         </div>
     </section>
 
-    <section id= 'second'>
+    <section id= 'skills'>
         <div class="sectionContainer">
             <div class="skills_animation">
                 <div style="left: 16%; padding-left: 5%; padding-top: 13%">
@@ -477,7 +477,7 @@
         </div>
     </section>
 
-    <section id= 'third'>
+    <section id= 'resume'>
         <div class="sectionContainer">
             <div class="resume">
                 <div class="container firstPart">
@@ -861,7 +861,7 @@
         </div>
     </section>
 
-    <section id= 'fourth'>
+    <section id= 'contact'>
         <div class="sectionContainer section4">
             <button id="mailBtn"><b style="margin-left: 25px">MAIL ME</b></button>
             <div id="mailIcon"><img src="img/icons/mail.png" height="24" width="24"></div>

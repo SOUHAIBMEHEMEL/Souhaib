@@ -35,7 +35,7 @@ body{
     padding: 0;
 }
 
-#first h5{
+#home h5{
     color: #A3A9AD;
 }
 
@@ -281,7 +281,7 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     animation: 2s fadeIn forwards .7s;
 }
 
-#first, #second, #third, #fourth, #blog {
+#home, #skills, #resume, #contact, #blog {
     background: url("../img/bg.jpg") no-repeat center center;
     background-size: cover;
 }
