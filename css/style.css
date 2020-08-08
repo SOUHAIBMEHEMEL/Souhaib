@@ -77,7 +77,7 @@ body{
 
 #socialContact{
     position: absolute;
-    bottom: 6%;
+    bottom: 3%;
 }
 
 #socialContact >li {
@@ -127,12 +127,37 @@ body{
     font-style: italic;
 }
 
+.blogCard{
+    margin-top: 2%;
+    color: #E3E9ED;
+    background-color: #404263;
+    padding: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(30,30,50,.95);
+}
+.blogCard:first-child{
+    margin-top: 90px;
+}
+.blogCardImage{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0%;
+}
+.firstchild{
+    background: url("../img/icons/microsoftImage.jpg") no-repeat center center;
+    background-size: cover;
+}
+.secondchild{
+    background: url("../img/icons/imagine_cup.png") no-repeat center center;
+    background-size: cover;
+}
 
 .ligne{
     width: 100%;
     height: 1px;
     background-image: linear-gradient(to right, #947fee, #ba71de, #d762c7, #ec54ac, #f94a8e);
-    margin-bottom: 20%;
+    margin-bottom: 50%;
 }
 .ligne1{
     width: 90%;
@@ -256,7 +281,7 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     animation: 2s fadeIn forwards .7s;
 }
 
-#first, #second, #third, #fourth {
+#first, #second, #third, #fourth, #blog {
     background: url("../img/bg.jpg") no-repeat center center;
     background-size: cover;
 }
@@ -1238,5 +1263,17 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     }
     #mailBtnPhone{
         display: block;
+    }
+    .blogCard{
+        margin: 90px 0px 20px 0px;
+        border-radius: 20px;
+    }
+    .blogCardImage{
+        width: 100%;
+        border-radius: 20px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        height: 200px;
+        position: relative;
     }
 }
