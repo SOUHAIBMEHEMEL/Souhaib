@@ -30,7 +30,7 @@ body{
 }
 .firstRow .introCard{
     margin-top: 6%;
-    height: 500px;
+    height: 480px;
     background-color: rgba(64,66,99,0);
     padding: 0;
 }
@@ -40,7 +40,7 @@ body{
 }
 
 .introCardContent{
-    height: 100%;
+    height: 90%;
     width: 100%;
     position: absolute;
     padding: 30px;
@@ -62,7 +62,7 @@ body{
     margin-bottom: 30%;
     width: 50px;
     height: 50px;
-    background: url("../img/Sohaib.jpg") no-repeat center center;
+    background: url("../img/Sohaib.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -104,7 +104,7 @@ body{
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    background: url("../img/Sohaib.jpg") no-repeat center center;
+    background: url("../img/Sohaib.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -711,7 +711,7 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     right: 0;
     padding: 5px 30px 10px 5px;
 }
-.backend_title{
+.frontend_title{
     padding: 15px 0 0 0;
 }
 .story > div > ul{
@@ -814,7 +814,7 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
     border-radius: 50%;
     width: 150px;
     height: 150px;
-    background: url("../img/Sohaib.jpg") no-repeat center center;
+    background: url("../img/Sohaib.png") no-repeat center center;
     background-size: cover;
 }
 
@@ -1295,7 +1295,7 @@ section:target h1 ,section:target h2,section:target h3,section:target h4,section
         border-radius: 50%;
         width: 110px;
         height: 110px;
-        background: url("../img/Sohaib.jpg") no-repeat center center;
+        background: url("../img/Sohaib.png") no-repeat center center;
         background-size: cover;
     }
     #shortIntro > h1{
